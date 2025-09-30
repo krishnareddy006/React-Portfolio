@@ -161,4 +161,7 @@
   text-align: center;
 }
 
+#root {
+  @apply overflow-x-hidden;
+}
 
