@@ -42,6 +42,22 @@ import snookerCoaching from "../assets/project_logo/snookerCoaching.png";
 const projects = [
   {
     id: 1,
+    title: "Deva Darshan",
+    description: "A comprehensive full-stack temple management platform that digitizes religious institution operations. Features online darshan booking, accommodation management, donation tracking, pooja scheduling, and administrative tools with real-time revenue monitoring.",
+    detailedDescription: "Deva Darshan is a comprehensive web-based temple management system designed to streamline religious institution operations and enhance devotee services through digital transformation. This full-stack application provides a complete solution for managing temple activities including darshan bookings, accommodation reservations, donations, poojas, events, and community memberships.",
+    images: [
+      recipeHomePage,
+      recipeSearch, 
+      recipeViewRecipe,
+      recipeMyRecipePage,
+      recipeFavPage
+    ],
+    tags: ["TypeScript", "React", "Node.js", "MongoDB Atlas", "Express", "REST APIs"],
+    demoUrl: "https://deva-darshan.netlify.app/",
+    githubUrl: "https://github.com/krishnareddy006/DevaDarshan-Temple-Management-System",
+  },
+  {
+    id: 1,
     title: "Recipe Hub",
     description: "Full-stack recipe management application with CRUD operations, user authentication, and advanced filtering. Includes image uploads and real-time search for an interactive experience.",
     detailedDescription: "Recipe Hub delivers a comprehensive recipe management platform with complete CRUD functionality. Users can add recipes with image uploads, edit existing entries, and organize favorites through an intuitive interface. Advanced filtering enables search by name, diet type, cuisine, and country. The application features JWT authentication, Cloudinary integration for image management, and responsive design with smooth animations.",
