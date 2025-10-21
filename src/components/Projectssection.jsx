@@ -3,12 +3,12 @@ import { useState } from "react";
 
 // Recipe Hub Images
 import DevaDarshanHome from "../assets/project_logo/DevaDarshanHome.png";
-import DevaDarshanAdmin from "../assets/project_logo/ DevaDarshanAdmin.png";
+import DevaDarshanAdmin from "../assets/project_logo/DevaDarshanAdmin.png";
 import DevaDarshanAdminRecord from "../assets/project_logo/DevaDarshanAdminRecord.png";
 import DevaDarshanPooja from "../assets/project_logo/DevaDarshanPooja.png";
 import DevaDarshanAccommodation from "../assets/project_logo/DevaDarshanAccommodation.png";
 import DevaDarshanDarshan from "../assets/project_logo/DevaDarshanDarshan.png";
-import DevaDarshanDonation from "../assets/project_logo/DevaDarshanDonation.png";
+import DevaDarshanDonation from "../assets/project_logo/DevaDarshanDonation.jpeg";
 import DevaDarshanPayment from "../assets/project_logo/DevaDarshanPayment.png";
 
 import recipeHomePage from "../assets/project_logo/recipeHomePage.png";
@@ -69,7 +69,7 @@ const projects = [
     githubUrl: "https://github.com/krishnareddy006/DevaDarshan-Temple-Management-System",
   },
   {
-    id: 1,
+    id: 2,
     title: "Recipe Hub",
     description: "Full-stack recipe management application with CRUD operations, user authentication, and advanced filtering. Includes image uploads and real-time search for an interactive experience.",
     detailedDescription: "Recipe Hub delivers a comprehensive recipe management platform with complete CRUD functionality. Users can add recipes with image uploads, edit existing entries, and organize favorites through an intuitive interface. Advanced filtering enables search by name, diet type, cuisine, and country. The application features JWT authentication, Cloudinary integration for image management, and responsive design with smooth animations.",
@@ -85,7 +85,7 @@ const projects = [
     githubUrl: "https://github.com/krishnareddy006/Recipe-Hub",
   },
   {
-    id: 2,
+    id: 3,
     title: "BookByte",
     description: "Personal reading companion combining external book metadata with user reviews and ratings. Features smart search, dynamic cover displays, and a tailored reading experience.",
     detailedDescription: "BookByte serves as a comprehensive reading tracker that integrates the Open Library API to fetch detailed book information. The platform allows users to search for titles, view metadata, and add personal ratings and reviews with dynamic cover image support. Built with Express.js and EJS templating, it leverages PostgreSQL for persistent storage and includes automatic table setup with sample data for smooth onboarding.",
@@ -99,21 +99,6 @@ const projects = [
     tags: ["Node.js", "Express.js", "PostgreSQL", "EJS", "REST APIs", "Bootstrap", "CSS"],
     demoUrl: "https://bookbyte-9k6z.onrender.com/",
     githubUrl: "https://github.com/krishnareddy006/BookByte",
-  },
-  {
-    id: 3,
-    title: "Global Country Explorer",
-    description: "Interactive country information platform using REST Countries API. Provides comprehensive country data, intelligent search, and a modern modal interface.",
-    detailedDescription: "Global Country Explorer delivers detailed country information through an intuitive and responsive interface. It supports smart searches by country name, capital, or region, with intelligent partial matching, and presents comprehensive data on demographics, geography, languages, and currencies. The platform features modern glassmorphism design, smooth animations, and interactive modal overlays for an enhanced user experience.",
-    images: [
-      globalHomePage,
-      globalSearch,
-      globalView,
-      globalFooter
-    ],
-    tags: ["Node.js", "Express.js", "EJS", "Bootstrap", "REST Countries API", "JavaScript", "CSS", ],
-    demoUrl: "https://global-country-explorer.onrender.com/",
-    githubUrl: "https://github.com/krishnareddy006/Global-Country-Explorer",
   },
   {
     id: 4,
@@ -132,6 +117,21 @@ const projects = [
   },
   {
     id: 5,
+    title: "Global Country Explorer",
+    description: "Interactive country information platform using REST Countries API. Provides comprehensive country data, intelligent search, and a modern modal interface.",
+    detailedDescription: "Global Country Explorer delivers detailed country information through an intuitive and responsive interface. It supports smart searches by country name, capital, or region, with intelligent partial matching, and presents comprehensive data on demographics, geography, languages, and currencies. The platform features modern glassmorphism design, smooth animations, and interactive modal overlays for an enhanced user experience.",
+    images: [
+      globalHomePage,
+      globalSearch,
+      globalView,
+      globalFooter
+    ],
+    tags: ["Node.js", "Express.js", "EJS", "Bootstrap", "REST Countries API", "JavaScript", "CSS", ],
+    demoUrl: "https://global-country-explorer.onrender.com/",
+    githubUrl: "https://github.com/krishnareddy006/Global-Country-Explorer",
+  },
+  {
+    id: 6,
     title: "DevBlog",
     description: "Simple blog platform built with Node.js and EJS templating. Enables post creation, publishing, and viewing with clean responsive design and server-side rendering.",
     detailedDescription: "DevBlog is a lightweight blogging platform developed as part of my learning journey in full-stack web development. Built with Node.js, Express, and EJS templating, it demonstrates server-side rendering, dynamic content management, and responsive design. The platform enables post creation, publishing, and viewing, providing a clean and functional interface ideal for sharing knowledge and practicing core web development concepts.",
@@ -145,7 +145,7 @@ const projects = [
     githubUrl: "https://github.com/krishnareddy006/DevBlog",
   },
   {
-    id: 6,
+    id: 7,
     title: "The Que Club",
     description: "Snooker club management website with booking and membership registration. Built with HTML, CSS, and JavaScript featuring interactive UI and responsive design.",
     detailedDescription: "The Que Club is a frontend-focused snooker club platform designed using Figma for UI/UX planning. It enables users to browse club facilities, simulate booking time slots, and explore membership registration flows. Features include responsive layouts, smooth JavaScript interactions, and modern CSS styling for a polished, professional appearance, demonstrating strong frontend development skills.", 
