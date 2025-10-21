@@ -2,6 +2,15 @@ import { ArrowRight, ExternalLink, Github, ChevronLeft, ChevronRight, Eye, X } f
 import { useState } from "react";
 
 // Recipe Hub Images
+import DevaDarshanHome from "../assets/project_logo/DevaDarshanHome.png";
+import DevaDarshanAdmin from "../assets/project_logo/ DevaDarshanAdmin.png";
+import DevaDarshanAdminRecord from "../assets/project_logo/DevaDarshanAdminRecord.png";
+import DevaDarshanPooja from "../assets/project_logo/DevaDarshanPooja.png";
+import DevaDarshanAccommodation from "../assets/project_logo/DevaDarshanAccommodation.png";
+import DevaDarshanDarshan from "../assets/project_logo/DevaDarshanDarshan.png";
+import DevaDarshanDonation from "../assets/project_logo/DevaDarshanDonation.png";
+import DevaDarshanPayment from "../assets/project_logo/DevaDarshanPayment.png";
+
 import recipeHomePage from "../assets/project_logo/recipeHomePage.png";
 import recipeSearch from "../assets/project_logo/recipeSearch.png";
 import recipeViewRecipe from "../assets/project_logo/recipeViewRecipe.png";
@@ -40,6 +49,25 @@ import snookerTournament from "../assets/project_logo/snookerTournament.png";
 import snookerCoaching from "../assets/project_logo/snookerCoaching.png";
 
 const projects = [
+  {
+    id: 1,
+    title: "Deva Darshan",
+    description: "A full-stack temple management platform that digitizes operations with online bookings, donation tracking, pooja scheduling, and admin tools for real-time monitoring.",
+    detailedDescription: "Deva Darshan is a comprehensive full-stack temple management system that digitally transforms and streamlines religious institution operations while enhancing devotee experiences. It provides an end-to-end platform for managing temple activities such as darshan bookings, accommodation reservations, donations, poojas, events, and community memberships. The system includes an integrated Admin Panel that allows administrators to efficiently manage all operations, including the approval of accommodation and membership requests, with automated email notifications sent to users upon confirmation for seamless communication and an improved overall experience.",
+    images: [
+      DevaDarshanHome,
+      DevaDarshanAdmin,
+      DevaDarshanAdminRecord,
+      DevaDarshanPooja,
+      DevaDarshanAccommodation,
+      DevaDarshanDarshan,
+      DevaDarshanDonation,
+      DevaDarshanPayment
+    ],
+    tags: ["TypeScript", "React", "Node.js", "MongoDB Atlas", "Express", "REST APIs"],
+    demoUrl: "https://deva-darshan.vercel.app/",
+    githubUrl: "https://github.com/krishnareddy006/DevaDarshan-Temple-Management-System",
+  },
   {
     id: 1,
     title: "Recipe Hub",
@@ -388,4 +416,3 @@ export const ProjectsSection = () => {
     </section>
   );
 };
-
